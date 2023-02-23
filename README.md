@@ -2,6 +2,7 @@
 
 背景介绍：[飞书文档](https://genecast.feishu.cn/docx/Tcx4dr9VJo9vPpx2rNSc4GjBnMe) 或 [n-door problem.pdf](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/n-door%20problem.pdf)
 
+
 ## 代码使用说明
 
 ```shell
@@ -22,7 +23,8 @@ options:
 author: chen.minjun
 email:   chen.minjun@genecast.com.cn
 ```
-***
+
+
 ## 结果展示
 
 ### n个门-重复t次后,获得财宝概率计算
@@ -44,11 +46,10 @@ email:   chen.minjun@genecast.com.cn
 尝试 t=1000次、10K次，100K次，1M次 ,divergence = |模拟答案-理论|
 
 ```shell
-> python3 .\ndoor.py -n 5 -t 1000 -fa runtime.png
+> python3 ndoor.py -n 5 -t 1000 -fa runtime.png
 ```
 
-### HDF5文件
+### HDF5文件 ![file](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/result/ndoor-ntrial-probablity.h5)
 ```
 > python3 .\ndoor.py -n 5 -t 1000 -o result.h5
 ```
-
