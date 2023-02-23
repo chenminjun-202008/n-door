@@ -22,7 +22,7 @@ options:
 author: chen.minjun
 email:   chen.minjun@genecast.com.cn
 ```
-
+***
 ## 结果展示
 
 ### n个门-重复t次后,获得财宝概率计算
