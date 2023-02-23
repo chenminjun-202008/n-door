@@ -1,6 +1,6 @@
 # n-door 问题
 
-[背景介绍](https://genecast.feishu.cn/docx/Tcx4dr9VJo9vPpx2rNSc4GjBnMe) 或 n-door problem.pdf
+背景介绍：飞书文档 (https://genecast.feishu.cn/docx/Tcx4dr9VJo9vPpx2rNSc4GjBnMe) 或 [n-door problem.pdf](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/n-door%20problem.pdf)
 
 ## 代码使用说明
 
