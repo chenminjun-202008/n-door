@@ -49,7 +49,7 @@ email:   chen.minjun@genecast.com.cn
 > python3 ndoor.py -n 5 -t 1000 -fa runtime.png
 ```
 
-### HDF5文件 ![file](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/result/ndoor-ntrial-probablity.h5)
+### HDF5文件 [HDF5](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/result/ndoor-ntrial-probablity.h5)
 ```
 > python3 .\ndoor.py -n 5 -t 1000 -o result.h5
 ```
