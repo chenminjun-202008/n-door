@@ -1,7 +1,7 @@
 # n-door 问题
 [TOC]
 
-背景介绍：[飞书文档](https://genecast.feishu.cn/docx/Tcx4dr9VJo9vPpx2rNSc4GjBnMe) 或 [n-door problem.pdf](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/n-door%20problem.pdf)
+## 背景介绍：[飞书文档](https://genecast.feishu.cn/docx/Tcx4dr9VJo9vPpx2rNSc4GjBnMe) 或 [n-door problem.pdf](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/n-door%20problem.pdf)
 
 
 n (i.e. n=3) 扇门中有一扇门后面有财宝，每扇门后面有财宝的概率是多少？ 主持人让你选择一扇但不打开。 接着， 他打开任意一扇没有财宝的门后问你， 你愿不愿意更换你的第一选择（=选择另一扇门）？ 
