@@ -49,7 +49,7 @@ email:   chen.minjun@genecast.com.cn
 > python3 ndoor.py -n 5 -t 1000 -fa runtime.png
 ```
 
-### 不同重复t次数,模拟概率与理论值的差距 ![figure2](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/result/divergence.png)
+### 不同重复t次,模拟概率与理论值的差距 ![figure2](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/result/divergence.png)
 
 尝试 t=1000次、10K次，100K次，1M次 ,divergence = |模拟答案-理论|
 
