@@ -1,8 +1,8 @@
-# n-door 问题
 [TOC]
 
-## 背景介绍：[飞书文档](https://genecast.feishu.cn/docx/Tcx4dr9VJo9vPpx2rNSc4GjBnMe) 或 [n-door problem.pdf](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/n-door%20problem.pdf)
+# n-door 问题
 
+## 背景介绍：[飞书文档](https://genecast.feishu.cn/docx/Tcx4dr9VJo9vPpx2rNSc4GjBnMe) 或 [n-door problem.pdf](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/n-door%20problem.pdf)
 
 n (i.e. n=3) 扇门中有一扇门后面有财宝，每扇门后面有财宝的概率是多少？ 主持人让你选择一扇但不打开。 接着， 他打开任意一扇没有财宝的门后问你， 你愿不愿意更换你的第一选择（=选择另一扇门）？ 
 从概率的角度来看：
@@ -35,13 +35,13 @@ email:   chen.minjun@genecast.com.cn
 
 ## 结果展示
 
-### n个门-重复t次后,获得财宝的概率
+### n个门-t次重复试验,获得财宝的概率
 
 ```shell
 > python3 ndoor.py -n 3 -t 1000
 ```
 
-### n个门-重复t次的运行时间 ![figure1](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/result/runtime.png)
+### n个门-不同t次试验的运行时间 ![figure1](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/result/runtime.png)
 
 尝试 t=1000次、10K次，100K次，1M次 , 程序的运⾏时间(以n=5为例）
 
@@ -49,7 +49,7 @@ email:   chen.minjun@genecast.com.cn
 > python3 ndoor.py -n 5 -t 1000 -fa runtime.png
 ```
 
-### 不同重复次数模拟概率与理论值的差距 ![figure2](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/result/divergence.png)
+### 不同重复t次数,模拟概率与理论值的差距 ![figure2](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/result/divergence.png)
 
 尝试 t=1000次、10K次，100K次，1M次 ,divergence = |模拟答案-理论|
 
