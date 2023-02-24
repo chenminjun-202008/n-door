@@ -2,10 +2,13 @@
 
 背景介绍：[飞书文档](https://genecast.feishu.cn/docx/Tcx4dr9VJo9vPpx2rNSc4GjBnMe) 或 [n-door problem.pdf](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/n-door%20problem.pdf)
 
+```txt
 n (i.e. n=3) 扇门中有一扇门后面有财宝，每扇门后面有财宝的概率是多少？ 主持人让你选择一扇但不打开。 接着， 他打开任意一扇没有财宝的门后问你， 你愿不愿意更换你的第一选择（=选择另一扇门）？ 
 从概率的角度来看：
 - 概率1：不换门获得财宝的概率。
 - 概率2：选择换门后的获得财宝的概率。
+
+```
 
 ## 代码使用说明
 
@@ -22,7 +25,7 @@ options:
   -t NTRIAL    number of trials.
   -fa FIGUREA  Plot:Y=runtime, X=the number of trials
   -fb FIGUREB  Plot:the divergence = |模拟答案-理论值| and the number of trials
-  -o OUTFILE   gates(3,5,10,30) and trials(10^(3,4,5,6,7)), hdf5 files are generated with changing/no-changing probality
+  -o OUTFILE   gates(3,5,10,30) and trials(10^(3,4,5,6)), hdf5 files are generated with changing/no-changing probality
 
 author: chen.minjun
 email:   chen.minjun@genecast.com.cn
@@ -31,7 +34,7 @@ email:   chen.minjun@genecast.com.cn
 
 ## 结果展示
 
-### n个门-重复t次后,获得财宝概率
+### n个门-重复t次后,获得财宝的概率
 
 ```shell
 > python3 ndoor.py -n 3 -t 1000
@@ -55,5 +58,5 @@ email:   chen.minjun@genecast.com.cn
 
 ### HDF5文件 [HDF5](https://git.genecast.com.cn/chen.minjun/n-door/-/blob/main/result/ndoor-ntrial-probablity.h5)
 ```
-> python3 .\ndoor.py -n 5 -t 1000 -o result.h5
+> python3 ndoor.py -n 5 -t 1000 -o result.h5
 ```
